@@ -3,7 +3,6 @@ import time
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
 from login_func import login_page
-driver = Chrome()
 
 driver = Chrome()
 login_page(username="admin",password="dmin123",driver=driver)
